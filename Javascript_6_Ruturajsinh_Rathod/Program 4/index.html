@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Temperature</title>
+    <style>
+        .contia {
+            width: 40%;
+            margin: 30vh auto auto auto;
+            border: 1px solid blue;
+            border-radius: 20px;
+            padding: 30px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        #ans {
+            text-align: center;
+            font-size: 150%;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+    <script src="./convert.js"></script>
+</head>
+<body>
+    <div class="contia">
+        <h1>Temperature Convertor</h1>
+        <form name="myForm">
+            <label for="number">Enter Temperature in Celsuis: </label>
+            <input type="text" name="tempCelsuis" id="celsuis" value=""/><br><br>
+            <label for="number">Enter Tempeerature in Fahrenheit: </label>
+            <input type="text" name="tempFahrenheit" id="fahrenheit" value=""/><br><br>
+            <input type="button" value="Convert" onclick="convert()">
+        </form>
+        <div id="ans"></div>
+    </div>
+</body>
+</html>

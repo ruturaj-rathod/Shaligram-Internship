@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of power of numbers</title>
+    <style>
+        .contia {
+            width: 40%;
+            margin: 30vh auto auto auto;
+            border: 1px solid blue;
+            border-radius: 20px;
+            padding: 30px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        #ans {
+            text-align: center;
+            font-size: 150%;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+    <script src="./sumOfNumber.js"></script>
+</head>
+<body>
+    <div class="contia">
+        <h1>Prime Number or Not Prime Number</h1>
+        <form name="myForm">
+            <label for="start">Enter start Number: </label>
+            <input type="text" name="start" id="start"/><br><br>
+            <label for="end">Enter end Number: </label>
+            <input type="text" name="end" id="end"/><br><br>
+            <label for="power">Enter power: </label>
+            <input type="text" name="power" id="power"/><br><br>
+            <input type="button" value="Sum" onclick="sum()">
+        </form>
+        <div id="ans"></div>
+    </div>
+</body>
+</html>

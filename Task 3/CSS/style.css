@@ -1,0 +1,31 @@
+.mybtn {
+    background-color: #05427B;
+    color: white !important;
+}
+
+.mybtn:hover {
+    color: white !important;
+}
+
+.nav a {
+    color: black;
+}
+
+.sidebar {
+    background-color: #FFCCCC !important;
+    height: 80vh;
+    border: 2px solid white;
+
+}
+
+.section {
+    background-color: #BEBEBE !important;
+    height: 50%;
+    border: 2px solid white;
+
+}
+
+.footer-color {
+    background-color: #735A43;
+    height: 50px;
+}

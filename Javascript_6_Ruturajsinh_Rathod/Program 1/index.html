@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime or Not</title>
+    <style>
+        .contia {
+            width: 40%;
+            margin: 30vh auto auto auto;
+            border: 1px solid blue;
+            border-radius: 20px;
+            padding: 30px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        #ans {
+            text-align: center;
+            font-size: 150%;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+    <script src="./prime.js"></script>
+</head>
+<body>
+    <div class="contia">
+        <h1>Prime Number or Not Prime Number</h1>
+        <form name="primeForm">
+            <label for="number">Enter your Number: </label>
+            <input type="text" name="number" id="number"/><br><br>
+            <input type="button" value="Check" onclick="isPrime()">
+        </form>
+        <div id="ans"></div>
+    </div>
+</body>
+</html>
